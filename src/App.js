@@ -1,10 +1,16 @@
+import React from 'react';
 import './App.css';
+import Home from './views/home/Home';
+import Privacy from './views/privacy/Privacy';
+import About from './views/about/About';
 
 function App() {
   return (
     <>
-    <h1 className="text-center">CSC APP</h1>
-    <p>Garbage Collection</p>
+
+      <Home />
+
+
     </>
   );
 }
